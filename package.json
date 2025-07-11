@@ -1,0 +1,25 @@
+{
+  "name": "demo-jenkins-pipeline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --ci --reporters=default --reporters=jest-junit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francois-sa-semifir/demo-jenkins-pipeline.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/francois-sa-semifir/demo-jenkins-pipeline/issues"
+  },
+  "homepage": "https://github.com/francois-sa-semifir/demo-jenkins-pipeline#readme",
+  "devDependencies": {
+    "jest": "^30.0.4",
+    "jest-junit": "^16.0.0"
+  }
+}
