@@ -6,7 +6,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        git url: 'https://github.com/francois-sa-semifir/demo-jenkins-pipeline/blob/main/Jenkinsfile.git', branch: 'main'
+        git url: 'https://github.com/francois-sa-semifir/demo-jenkins-pipeline.git', branch: 'main'
       }
     }
 
